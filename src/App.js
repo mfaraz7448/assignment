@@ -239,7 +239,7 @@ const App = (props) => {
                       <Input type="text" name="catchPhrase" id="catchPhrase" value={props.userDetail.company.catchPhrase} onChange={(e) => onChangeHandler(e, 'company')} required />
                     </FormGroup>
                     <FormGroup>
-                      <Label for="bs">BSs<span className='text-danger'>*</span></Label>
+                      <Label for="bs">BS<span className='text-danger'>*</span></Label>
                       <Input type="text" name="bs" id="bs" value={props.userDetail.company.bs} onChange={(e) => onChangeHandler(e, 'company')} required />
                     </FormGroup>
 
